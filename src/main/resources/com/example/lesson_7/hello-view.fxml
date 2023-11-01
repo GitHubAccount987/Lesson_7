@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.2" fx:controller="com.example.lesson_7.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <TextField fx:id="nameToSave" promptText="Name" />
+      <TextField fx:id="surnameField" promptText="Surname" />
+      <TextField fx:id="subjectField" promptText="Subject" />
+      <TextField fx:id="gradeField" promptText="Grade" />
+      <Button fx:id="saveButton" mnemonicParsing="false" onMouseClicked="#onSaveClick" text="Save" />
+      <TextField fx:id="nameToSearch" promptText="Name" />
+      <TextField fx:id="surnameToFind" promptText="Surname" />
+      <TextField fx:id="subjectToSearch" promptText="Subject" />
+      <Label fx:id="averageGradeLabel" text="Average grade" />
+      <Button fx:id="showGrade" mnemonicParsing="false" onMouseClicked="#onShowGradeClick" text="Show" />
+   </children>
+</VBox>
